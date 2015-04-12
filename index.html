@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+
+    <title>What is open source</title>
+
+    <meta name='description' content='A framework for easily creating beautiful presentations using HTML'>
+    <meta name='author' content='Hakim El Hattab'>
+
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui'>
+
+    <link rel='stylesheet' href='css/reveal.css'>
+    <link rel='stylesheet' href='css/theme/black.css' id='theme'>
+
+    <!-- Code syntax highlighting -->
+    <link rel='stylesheet' href='lib/css/zenburn.css'>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src='lib/js/html5shiv.js'></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class='reveal'>
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class='slides'>
+        <section data-markdown>
+          <script type='text/template'>
+# What is open source?
+<img alt='Stallman' width=200 src='http://upload.wikimedia.org/wikipedia/commons/c/cf/Portrait_-_Denmark_DTU_2007-3-31.jpg' />
+<img alt='gnu' width=200 src='http://3j68xu1tybju34n8yb4fm4b189a.wpengine.netdna-cdn.com/wp-content/uploads/2013/08/gnu-gpl-logo.png' />
+          </script>
+          
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+## This presentation is
+
+* presentation framework: [reveal.js](https://github.com/hakimel/reveal.js/)
+* uploaded using git
+* (probably) stored on linux
+* served using nginx
+* presented in chrome/firefox
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+## Open source
+* introduced by free software movement
+* more precise definition than _free_
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+## FSF - Free Software Foundation
+* 1985 by Stallman
+* supporting GNU project
+* GNU (GNU Not Unix)
+* GNU with Linux kernel (GNU/Linux)
+* Multiple distros: Debian, Ubuntu, RedHat, CentOS, Arch,
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+## GNU
+* think of lego
+* consists of multiple parts (compiler, binutils, shell)
+* works with other sw's
+* ported to non-free os-s as well (osx, windows)
+
+```
+$ uname -a
+Linux oroszi.net 3.2.0-69-virtual #103-Ubuntu SMP \
+Tue Sep 2 05:21:29 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+```
+
+```
+$ uname -a
+Linux raspberrypi 3.18.7+ #756 PREEMPT \
+Wed Feb 18 16:08:51 GMT 2015 armv6l GNU/Linux
+```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+## Licenses
+MIT, APACHE-2.0, BSD-3-CLAUSE, ARTISTIC-1.0-PERL, GPL-3.0, ISC, GPL-2.0+, BSD-3-CLAUSE-CLEAR, LGPL-3.0, GPL-2.0, LGPL-2.1+, BSD-2-CLAUSE, EPL-1.0, AGPL-3.0, UNLICENSE, GPL-2.0-WITH-CLASSPATH-EXCEPTION, CNRI-PYTHON-GPL-COMPATIBLE, DSDP, GPL-3.0+, EPL-1.0, WTFPL, AGPL-3.0, LGPL-3.0+, ECL-2.0, QPL-1.0, MPL-2.0, LGPL-2.0+, BSD-3-CLAUSE-ATTRIBUTION, ZED, INTEL-ACPI, ABSTYLES, XPP, NETCDF, LGPL-2.1, VOSTROM, FTL, CC-BY-NC-4.0, ARTISTIC-2.0, RSCPL, CDDL-1.0, FAIR, MPL-2.0, OSL-3.0, BSD-2-CLAUSE-FREEBSD, MIROS, BSL-1.0, AFL-3.0, LGPL-3.0, CDDL-1.1, OPENSSL, CC0-1.0, HPND, PLEXUS, PYTHON-2.0, OGTSL, BEERWARE, GPL-1.0+, IBM-PIBS, ZLIB, RUBY, ARTISTIC-1.0, BSD-2-CLAUSE-NETBSD, CC-BY-4.0, CC-BY-SA-3.0, AML, TMATE, UNICODE-TOU, NGPL, AGPL-1.0, JASPER-2.0, BSD-4-CLAUSE, MIT-ENNA, LGPL-2.0, VIM, CPOL-1.02, ODBL-1.0, GPL-3.0-WITH-GCC-EXCEPTION, GFDL-1.3, BITTORRENT-1.1, CPAL-1.0, ZEND-2.0, CPL-1.0, CC-BY-NC-ND-3.0, MPL-1.1, CC-BY-3.0, ARTISTIC-1.0-CL8, SAX-PD, CECILL-2.0, SMLNJ, W3C, AAL, NCSA, INTEL, OFL-1.1, ALADDIN, JSON, EUPL-1.1, CC-BY-NC-SA-4.0, FSFUL, CECILL-C, PHP-3.0, MITNFA, ADSL, SIMPL-2.0, SGI-B-2.0, LGPL-2.1, SAXPATH, ZLIB-ACKNOWLEDGEMENT, WXWINDOWS, SCEA, CALDERA, LIBPNG, DOC, CC-BY-NC-ND-4.0, OML, CECILL-B, MTLL, LPL-1.0, HASKELLREPORT, LPPL-1.2, CC-BY-SA-4.0, IMATIX, IPA, SLEEPYCAT, PDDL-1.0, CC0-1.0, SPL-1.0, MAKEINDEX, SWL, OLDAP-2.7, MPL-2.0-NO-COPYLEFT-EXCEPTION, FSFULLR, CC-BY-NC-3.0, AMPAS, BSD-3-CLAUSE-LBNL, ADOBE-2006, X11, NOWEB, IJG, NLPL, NASA-1.3, GPL-2.0-WITH-FONT-EXCEPTION, BSD-PROTECTION, PSFRAG, IPL-1.0, CC-BY-NC-SA-3.0, OLDAP-2.8, NUNIT, MS-PL
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+## TOP Licenses ([across 755,882 projects](http://libraries.io/licenses))
+* MIT (182,664 PROJECTS)
+* APACHE-2.0 (63,174 PROJECTS)
+* BSD-3-CLAUSE (26,851 PROJECTS)
+* ARTISTIC-1.0-PERL(12,478 PROJECTS)
+* +1 GPL, LGPL
+          </script>
+        </section>
+
+        <section>
+          <img class='stretch' src='./assets/gmail.png' />
+        </section>
+
+        <section>
+          <img class='stretch' src='./assets/facebook.png' />
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+## Why
+* cooperation
+* access to source
+* end of vendor lock-in
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+## But
+* Control
+* More people -> more eyes
+* Source is free, maintanence, support (see moodle)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+## Be part of it
+* github.com: [*Lawyer need*](https://github.com/search?utf8=%E2%9C%93&q=%22lawyer+need%22&type=Issues&ref=searchresults), [*Documentation needed*](https://github.com/search?utf8=%E2%9C%93&q=%22documentation+needed%22&type=Issues&ref=searchresults)
+* bitbucket.com
+
+* (google code)
+* (sourceforge)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type='text/template'>
+# Thanks, Questions?
+https://github.com/oroce
+
+https://github.com/purposeindustries
+          </script>
+        </section>
+      </div>
+    </div>
+
+    <script src='lib/js/head.min.js'></script>
+    <script src='js/reveal.js'></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
